@@ -1,0 +1,86 @@
+/**
+ * ==========================================================
+ * Author: Majdi M. S. Awad
+ * Author Website: https://github.com/majdi-php-sql?tab=repositories
+ * App Website: https://github.com/majdi-php-sql?tab=repositories
+ * Author Email: majdiawad.php@gmail.com
+ * Address: Abu Dhabi, UAE
+ * License: MIT
+ * ==========================================================
+ *
+ * Description:
+ * This script is part of a series of applications and tools developed by Majdi M. S. Awad. 
+ * It is designed and implemented with a focus on robust functionality, security, and 
+ * user-friendly design. The script is distributed under the MIT License, allowing 
+ * for free usage, modification, and distribution, provided that the original author 
+ * is credited.
+ *
+ * Usage:
+ * Users are encouraged to explore, modify, and integrate this script into their projects. 
+ * Please refer to the included documentation for detailed instructions and examples on 
+ * how to utilize this script effectively.
+ *
+ * Disclaimer:
+ * While every effort has been made to ensure the reliability and accuracy of this script, 
+ * it is provided "as is" without warranty of any kind. The author is not liable for any 
+ * damages or issues arising from the use of this script.
+ *
+ * ==========================================================
+ */
+
+/* I wrote custom CSS to enhance the frontend appearance. */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button.btn:hover {
+    background-color: #0056b3;
+}

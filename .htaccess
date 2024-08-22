@@ -1,0 +1,15 @@
+# I configured Apache security settings.
+
+# I disabled directory browsing.
+Options -Indexes
+
+# I restricted access to certain files.
+<FilesMatch "\.(htaccess|config\.php|log|ini)$">
+    Require all denied
+</FilesMatch>
+
+# I enabled URL rewriting for cleaner URLs.
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L]

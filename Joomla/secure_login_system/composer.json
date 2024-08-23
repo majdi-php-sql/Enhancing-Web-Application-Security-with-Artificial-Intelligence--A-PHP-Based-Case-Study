@@ -1,0 +1,9 @@
+{
+    "require": {
+        "php-ai/php-ml": "^0.10.0",
+        "guzzlehttp/guzzle": "^7.9",
+        "phpmailer/phpmailer": "^6.9",
+        "defuse/php-encryption": "^2.4",
+        "ircmaxell/password-compat": "^1.0"
+    }
+}

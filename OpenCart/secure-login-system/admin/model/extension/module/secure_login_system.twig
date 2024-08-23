@@ -1,0 +1,11 @@
+<!-- File: admin/view/template/extension/module/secure_login_system.twig -->
+
+<div class="form-group">
+    <label class="col-sm-2 control-label" for="input-status">{{ entry_status }}</label>
+    <div class="col-sm-10">
+        <select name="secure_login_system_status" id="input-status" class="form-control">
+            <option value="1" {{ secure_login_system_status ? 'selected' : '' }}>{{ text_enabled }}</option>
+            <option value="0" {{ not secure_login_system_status ? 'selected' : '' }}>{{ text_disabled }}</option>
+        </select>
+    </div>
+</div>

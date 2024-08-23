@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+    <name>Secure Login System</name>
+    <code>secure_login_system</code>
+    <version>1.0.0</version>
+    <author>Majdi M. S. Awad</author>
+    <link>https://github.com/majdi-php-sql/</link>
+    <file path="catalog/controller/checkout/register.php">
+        <!-- Add code to integrate secure login system -->
+    </file>
+</modification>

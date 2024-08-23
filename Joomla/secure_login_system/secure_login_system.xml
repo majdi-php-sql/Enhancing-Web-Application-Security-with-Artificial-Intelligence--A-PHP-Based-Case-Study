@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="4.0" group="system" method="upgrade">
+    <name>Secure Login System</name>
+    <author>Majdi M. S. Awad</author>
+    <creationDate>2024</creationDate>
+    <copyright>Copyright (C) 2024 Majdi M. S. Awad. All rights reserved.</copyright>
+    <license>MIT License</license>
+    <authorEmail>majdi@php-sql.com</authorEmail>
+    <authorUrl>https://github.com/majdi-php-sql/</authorUrl>
+    <version>1.0.0</version>
+    <description>Plugin for enhancing Joomla security with AI-based threat detection and prevention.</description>
+    <files>
+        <filename plugin="secure_login_system">secure_login_system.php</filename>
+        <filename>helper.php</filename>
+        <folder>ajax</folder>
+        <folder>models</folder>
+        <folder>controllers</folder>
+        <folder>assets</folder>
+        <folder>language</folder>
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_secure_login_system.ini</language>
+    </languages>
+</extension>

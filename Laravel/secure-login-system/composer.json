@@ -1,0 +1,13 @@
+{
+    "require": {
+        "php-ai/php-ml": "^0.10.0",
+        "laravel/sanctum": "^3.3",
+        "laravel/ui": "^4.5",
+        "swoft-laravel/validation": "^1.0",
+        "guzzlehttp/guzzle": "^7.9",
+        "illuminate/encryption": "^9.52"
+    },
+    "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.13"
+    }
+}
